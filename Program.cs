@@ -28,12 +28,14 @@ class Program
     }
 
     static long SumTo(int n)
-    {
-        long sum = 0;
-        for (int i = 1; i <= n; i++)
-        {
-            sum += i;
-        }
-        return sum;
+    {    
+        long sum = 0L;
+	for (int i = 1; i <= n; i++)
+	{
+		sum += i;
+	}
+	return sum;
+
     }
 }
+
