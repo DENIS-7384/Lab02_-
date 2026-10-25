@@ -8,7 +8,7 @@ class Program
         Console.WriteLine("Debug vs. Release");
 
         // Проверка метода Add
-        Console.WriteLine(\$"Add(2, 3) = {Add(2, 3)}");
+        Console.WriteLine($"Add(2, 3) = {Add(2, 3)}");
 
         // Проверка метода SumTo с замером времени
         int n = 1_000_000_000;
@@ -17,8 +17,8 @@ class Program
         long result = SumTo(n);
         stopwatch.Stop();
 
-        Console.WriteLine(\$"SumTo({n}) = {result}");
-        Console.WriteLine(\$"Время выполнения: {stopwatch.ElapsedMilliseconds} мс");
+        Console.WriteLine($"SumTo({n}) = {result}");
+        Console.WriteLine($"Время выполнения: {stopwatch.ElapsedMilliseconds} мс");
     }
 
     static int Add(int a, int b)
